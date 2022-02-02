@@ -1,0 +1,22 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+
+#ContactDetails{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+}
+
+#Paragraph{
+    text-align: justify;
+}
+
+#Paragraph > h2{
+    text-align: center;
+}
