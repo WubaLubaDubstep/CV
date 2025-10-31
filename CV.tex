@@ -1,0 +1,189 @@
+% Professional CV - Tyrone Joshua Aaron
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Define colors
+\definecolor{headercolor}{RGB}{52, 73, 94}
+\definecolor{accentcolor}{RGB}{41, 128, 185}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accentcolor,
+    urlcolor=accentcolor,
+    pdftitle={CV - Tyrone Joshua Aaron},
+}
+
+% Section formatting
+\titleformat{\section}
+  {\color{headercolor}\Large\bfseries}
+  {}{0em}{}[\titlerule]
+
+\titleformat{\subsection}
+  {\color{accentcolor}\large\bfseries}
+  {}{0em}{}
+
+% Custom commands
+\newcommand{\cvitem}[4]{
+  \textbf{#1} \hfill \textit{#2} \\
+  \textit{#3} \hfill #4 \\[0.2em]
+}
+
+\newcommand{\cventry}[2]{
+  \textbf{#1} \hfill #2 \\
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge\textbf{\color{headercolor}TYRONE JOSHUA AARON}} \\[0.5em]
+    \large{Computer Science Graduate \& Software Developer} \\[1em]
+    \begin{tabular}{c | c | c}
+        \faEnvelope\ \href{mailto:aarontyrone0103@gmail.com}{aarontyrone0103@gmail.com} & 
+        \faPhone\ 072 363 1942 & 
+        \faGithub\ \href{https://github.com/WubaLubaDubstep}{WubaLubaDubstep}
+    \end{tabular} \\[0.3em]
+    \faHome\ 6 Kremetart Street, Dowerglen, Edenvale
+\end{center}
+
+\vspace{0.5em}
+
+% Professional Summary
+\section*{Professional Summary}
+Computer Science graduate with strong technical skills and a proven track record in software development. Experienced in full-stack development, learning management systems, and IT solutions. Recognized leader with awards in youth leadership and philanthropy, combining technical expertise with excellent communication and teamwork abilities.
+
+% Work Experience
+\section*{Work Experience}
+
+\cvitem{Junior Developer}{November 2022 -- Present}{Promoforce}{Johannesburg}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Developing and maintaining software solutions for promotional and marketing platforms
+    \item Collaborating with senior developers on full-stack development projects
+    \item Contributing to code reviews and implementing best practices
+\end{itemize}
+
+\vspace{0.5em}
+
+\cvitem{IT Intern}{July 2022 -- November 2022}{Promoforce}{Johannesburg}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Gained hands-on experience in software development and IT operations
+    \item Assisted in troubleshooting technical issues and system maintenance
+\end{itemize}
+
+\vspace{0.5em}
+
+\cvitem{Music Director}{September 2020 -- November 2022}{Siloam Word of Truth Sandton}{Sandton}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Led music programs and coordinated performances
+    \item Managed scheduling and team coordination for multiple events
+\end{itemize}
+
+\vspace{0.5em}
+
+\cventry{Learning Management System Implementation}{September 2021}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Set up and configured Thinkific-based Learning Management System for Aaronites Christian Academy
+    \item Provided technical consultation and training for platform usage
+\end{itemize}
+
+\vspace{0.5em}
+
+\cventry{IT Bootcamp Participant}{June 2017}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Completed Standard Bank I.T. Bootcamp, gaining exposure to enterprise IT practices
+\end{itemize}
+
+% Education
+\section*{Education}
+
+\cventry{BSc Computer Science}{January 2020 -- Present}
+\textit{University of the Witwatersrand (WITS)}, Johannesburg
+
+\vspace{0.5em}
+
+\cventry{Matriculation}{2015 -- 2019}
+\textit{Reddam House Bedfordview} \\[0.2em]
+\textbf{Notable Achievements:}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Academic Colours
+    \item Student Executive -- Prefect
+    \item Musician of the Year
+    \item Gauteng East Debating Champion
+    \item Johannesburg Junior Council Representative
+\end{itemize}
+
+\textbf{Key Subject Results:} Mathematics (85\%), English (84\%), Music (82\%), Physics (72\%), Information Technology (74\%)
+
+% Professional Development
+\section*{Professional Development \& Certifications}
+
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item \textbf{Code 8 Driver's Licence}
+    \item \textbf{Complete Python Course} -- Udemy (January 2024)
+    \item \textbf{Complete Angular Course} -- Udemy (January 2023)
+    \item \textbf{Data Science with Python} -- UCT (November 2021)
+    \item \textbf{ABRSM Classical Piano Grade 8} -- Distinction (December 2019)
+\end{itemize}
+
+% Awards & Recognition
+\section*{Awards \& Recognition}
+
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item \textbf{Inyathelo Award for Children in Philanthropy} (2015)
+    \item \textbf{Primedia LeadSA Youth Hero} (October 2014)
+\end{itemize}
+
+% Skills
+\section*{Technical Skills}
+
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Python Development
+    \item Angular Framework
+    \item Data Science
+    \item Full-Stack Development
+    \item Learning Management Systems
+    \item Git/Version Control
+\end{itemize}
+\end{multicols}
+
+% Core Competencies
+\section*{Core Competencies}
+
+\begin{multicols}{3}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Trustworthy
+    \item Adaptable
+    \item Prompt
+    \item Calm Under Pressure
+    \item Strong Communication
+    \item Team Leadership
+\end{itemize}
+\end{multicols}
+
+% Interests
+\section*{Interests}
+
+Music \ $\bullet$ \ Technology \ $\bullet$ \ Martial Arts
+
+\vspace{1em}
+
+\begin{center}
+\small{\textit{References available upon request}}
+\end{center}
+
+\end{document}
